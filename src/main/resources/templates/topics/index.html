@@ -28,6 +28,9 @@
       }
       </script>
       <div class="container">
+      <div class="row">
+      	<a href="/topics/topic.csv" class="offset-md-4 col-md-4 btn btn-primary">CSVダウンロード</a>
+      </div>
       <div class="row" th:each="topic : ${list}">
         <a th:id="${topic.id}"></a>
         <div class="col-md-6 mx-auto">
